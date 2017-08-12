@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4a239ed-f702-4b0c-ac8e-be99bda3e027" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/transfer.py" afterPath="$PROJECT_DIR$/transfer.py" />
-    </list>
+    <list default="true" id="b4a239ed-f702-4b0c-ac8e-be99bda3e027" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
