@@ -1,7 +1,9 @@
-<h3>Git Transfer</h3>
+## Git Transfer
 This is a python script that will transfer all the branches and tags of your git project to a new remote repository.
+
 #### Purpose
 When we start working on a existing project, we may not **checkout** to all the **branches** while working on the project. So when we try to transfer the full repository we cannot push all the branches. This project is meant to solve the problem.
+
 #### Prerequisites
 - Have to have **python2.7** installed in your local machine.
 - Have to have **git** installed
