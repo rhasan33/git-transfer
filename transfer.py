@@ -49,7 +49,7 @@ class GitTransfer():
             os.system("git push --tags %s" % self.new_alias)
         os.system("git remote rm %s" % self.old_alias)
         print "Old remote is deleted"
-        os.system("git remote rename %s %s" % (self.new_alias, self.old_alias)
+        os.system("git remote rename %s %s" % (self.new_alias, self.old_alias))
         print "Old remote %s becomes %s" % (self.old_alias, self.new_alias)
 
         data.update({
