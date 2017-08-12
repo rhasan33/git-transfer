@@ -58,12 +58,13 @@ class GitTransfer():
         return json.dumps(data)
 
 new_repo = raw_input("Provide your new repository (SSH URL)\nFor example: 'ssh://path/to/git/repo/project.git': ")
-old_alias = raw_input("You old repository alias (eg. origin): ")
-if old_alias is not 'origin':
+old_alias = raw_input("You old repository alias (eg. origin):")
+if old_alias != 'origin':
+    print old_alias
     permission = raw_input("Are you sure about your old alias? (y/n): ")
 else:
     permission = 'y'
-if permission is not 'y':
+if permission != 'y':
     print json.dumps({"error": "Please try again. Process exit."})
     exit()
 new_alias = raw_input("You new alias which will be renamed to old one at the end of the process: ")
